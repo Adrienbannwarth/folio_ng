@@ -1,0 +1,91 @@
+.index-banner {
+    background-image: url('./image/Image_Home.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Abril Fatface';
+    letter-spacing: .5rem;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.pink-color {
+    color: #ebbbbc;
+}
+
+.green-color {
+    color: #00615e;
+    font-weight: lighter;
+
+}
+
+.flex {
+    margin-left: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+    .flex {
+        margin: 0;
+        align-items: center;
+    }
+}
+
+p {
+    font-family: 'Poppins';
+}
+
+.containerplus {
+    width: 50px;
+    margin-left: 20%;
+
+}
+
+.btn-add {
+    width: 55px;
+    margin-top: 55px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    animation-duration: 2s;
+    animation-name: zoom;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes zoom {
+    0% {
+
+        width: 50px;
+    }
+
+    50% {
+
+        width: 55px;
+    }
+
+    100% {
+
+        width: 50px;
+    }
+}
