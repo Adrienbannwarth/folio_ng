@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    background-color: white;
+    margin: 0 auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    background-size: cover;
+    width: 1024px;
+    height: 1068px;
+    min-width: 1000px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    padding-top: 15px;
+}
+
+h2 {
+
+    margin-bottom: 100px;
+    margin-top: 40px;
+    background-color: #CEF6EC;
+    text-align: center;
+    color: #848484;
+    height: 45px;
+    border-radius: 40px;
+    font-size: 1em;
+    font-weight: 100;
+
+}
+
+.contact {
+    color: #fad0df;
+    margin-bottom: 50px;
+    border: solid 3px #fad0df;
+    border-radius: 30px;
+
+
+}
+
+.contact:hover {
+    background-color: #CEF6EC;
+}
+
+.tt {
+
+    padding-top: 50px;
+    height: 100vh;
+
+
+}
+
+.fleur {
+    height: 560px;
+}
+
+
+
+img {
+
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #EFEFEF;
+    border-style: solid;
+    width: 400px;
+    max-height: 500px;
+    margin-bottom: 50px;
+    float: left;
+    margin: 50px;
+    display: block;
+
+}
+
+span {
+    color: #fad0df;
+    font-weight: 800;
+}
+
+
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 80px;
+    width: 500px;
+    height: 470px;
+    color: #908c8c;
+    line-height: 45px;
+    font-size: .9em;
+
+}
+
+.presentation {
+    height: 400px;
+}
+
+
+.Profil img {
+    width: 400px;
+    margin-top: 60px;
+
+}
+
+
+nav {
+    width: 1024px;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: #fad0df;
+    font-family: 'Handlee', cursive;
+    font-size: 1em;
+    border-radius: 30px;
+}
+
+
+ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+
+
+}
+
+a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+
+a:hover {
+    background-color: #d0cdcd;
+}
